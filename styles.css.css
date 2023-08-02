@@ -1,0 +1,495 @@
+*{
+    margin: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav-bar{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+.nav-bar img{
+    width: 85px;
+    height: 70px;
+    margin-left: 80px;
+}
+.nav-bar a{
+    color: rgb(101, 97, 97);
+    text-decoration: none;
+    margin-left: 30px;
+}
+.nav-bar a:hover{
+    color: rgb(66, 64, 64);
+}
+.nav-bar i{
+    margin-left: 600px;
+    cursor: pointer;
+}
+
+<!--  -->
+.first-div{
+    width: 100%;
+    height: 675px;
+    background-color: black;
+    background-image: url(images/Audi_Q8\ e-tron_Adpts-01_1920X1920.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.first-div h1{
+    padding-top: 50px;
+    padding-left: 60px;
+    font-size: 50px;
+}
+.first-div p{
+    padding-left: 60px;
+    padding-top: 20px;
+    font-size: 25px;
+}
+.first-div h3{
+    padding-left: 60px;
+    padding-top: 30px;
+}
+.first-div button{
+    width: 150px;
+    height: 60px;
+    margin-left: 60px;
+    margin-top: 30px;
+    background-color: black;
+    align-items: center;
+    cursor: pointer;
+}
+.first-div a{
+    color: white;
+    text-decoration: none;
+}
+.second-div{
+    width: 100%;
+    height: 300px;
+}
+.second-div p{
+    padding-top: 20px;
+    padding-left: 60px;
+    text-decoration: underline;
+    color: rgb(66, 64, 64);
+}
+.second-div .box{
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    float: left;
+    margin-top: 50px;
+    margin-left: 25px;
+    cursor: pointer;
+
+}
+.second-div .box img{
+    width: 80%;
+    height: 70%;
+}
+.second-div .box:hover{
+    transform: scale(1.1);
+}
+    
+.second-div .box a{
+    color: rgb(66, 64, 64);
+    text-decoration: none;
+}
+.second-div .box a:hover{
+    text-decoration: underline;
+}
+.second-div button{
+    width: 60px;
+    height: 100px;
+    margin-top: 30px;
+    margin-left: 50px;
+    border-top: none;
+    border-bottom: none;
+    border-right: none;
+    font-size: 50px;
+}
+.third-div{
+    width: 100%;
+    height: 670px;
+    display: flex;
+    margin-top: 30px;
+}
+.third-div-left{
+    width: 55%;
+    height: 100%;
+}
+.third-div-right{
+    width: 45%;
+    height: 100%;
+}
+.third-div img{
+    margin-left: 170px;
+    width: 600px;
+}
+.third-div h1{
+margin-top: 140px;
+font-size: 50px;
+line-height: 60px;
+}
+.third-div button{
+    width: 250px;
+    height: 55px;
+    font-size: 20px;
+    background-color: white;
+    margin-top: 20px;
+    border-color: rgb(66, 64, 64);
+}
+.third-div-right a{
+    color: rgb(66, 64, 64);
+    text-decoration: none;
+}
+.fourth-div{
+    height: 800px;
+    background-image: url(images/Audi-e-trone-gt.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+}
+.fourth-div .div1{
+width: 500px;
+height: 210px;
+background-color: white;
+margin-left: 100px;
+padding: 50px 50px;
+}
+.fourth-div .div1 p{
+    color: rgb(66, 64, 64);
+    line-height: 25px;
+}
+.div1 .black{
+    background-color: black;
+    color: white;
+    width: 120px;
+    height: 50px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+.div1 .white{
+    width: 200px;
+    height: 50px;
+    background-color: white;
+    border: 1px solid ;
+    cursor: pointer;
+}
+.fifth-div{
+    width: 100%;
+    height: 550px;
+    display: flex;
+}
+.fifth-div .left{
+    width: 35%;
+    height: 100%;
+    background-color: black;
+}
+.fifth-div .right{
+    width: 65%;
+    height: 100%;
+}
+.fifth-div .right img{
+    width: 100%;
+    height: 100%;
+}
+.fifth-div .left h1{
+    color: white;
+    font-size: 40px;
+    margin-top: 20px;
+    margin-left: 60px;
+}
+.fifth-div .left button{
+    background-color: black;
+    border: 1.5px solid white;
+    color: white;
+    width: 220px;
+    height: 60px;
+    margin-top: 380px;
+    cursor: pointer;
+    margin-left: 60px;
+}
+.fifth-div .left button:hover{
+    border: 2px solid rgb(113, 111, 111) ;
+    color: rgb(113, 111, 111);
+}
+.sixth-div{
+    width: 100%;
+    height: 850px;
+    display: flex;
+    margin-top: 70px;
+}
+.sixth-div .right{
+    background-image: url(images/122_Audi-App-Post_1534-X-1534px_WC.jpg);
+    width: 50%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: white;
+}
+.sixth-div .left{
+    width: 50%;
+    height: 100%;
+    background-color: black;
+    color: white;
+}
+.sixth-div .left h6{
+    margin-top: 480px;
+    margin-left: 35px;
+    font-size: 30px;
+    line-height: 45px;
+}
+.sixth-div .left h1{
+    margin-top: 10px;
+    margin-left: 35px;
+    font-size: 35px;
+}
+.sixth-div .left .button1{
+    background-color: black;
+    border: 2px solid white;
+    color: white;
+    width: 190px;
+    height: 60px;
+    margin-left: 35px;
+    margin-top: 30px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.sixth-div .left .button2{
+    background-color: black;
+    border: 2px solid white;
+    color: white;
+    width: 150px;
+    height: 60px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.sixth-div .left .button1:hover{
+    border-color: rgb(184, 180, 180);
+    color: rgb(184, 180, 180);
+}
+.sixth-div .left .button2:hover{
+    border-color: rgb(184, 180, 180);
+    color: rgb(184, 180, 180);
+}
+.seventh-div{
+    width: 100%;
+    height: 350px;
+}
+.seventh-div h1{
+    margin-top: 100px;
+    margin-left: 50px;
+    font-size: 40px;
+}
+
+.seventh-div .box1{
+width: 450px;
+height: 300px;
+margin-left: 50px;
+margin-top: 50px;
+float: left;
+}
+.seventh-div img{
+    width: 100%;
+    height: 75%;
+}
+.seventh-div .link1{
+    color: black;
+    text-decoration: none;
+}
+.seventh-div .link2{
+    color: rgb(55, 55, 55);
+    text-decoration: none;
+    font-weight: bold;
+}
+.seventh-div .link2:hover{
+    color: rgb(106, 104, 104);
+}
+
+.seventh-div .box2{
+    width: 450px;
+    height: 300px;
+    margin-left: 5px;
+    margin-top: 50px;
+    float: left;
+}
+
+
+
+.div8{
+    width: 100%;
+    height: 475px;
+}
+.div8 h1{
+    margin-top: 100px;
+    margin-left: 50px;
+    font-size: 40px;
+}
+.div8 .box1{
+width: 450px;
+height: 310px;
+margin-left: 50px;
+margin-top: 50px;
+float: left;
+
+}
+.div8 img{
+    width: 100%;
+    height: 75%;
+}
+.div8 .img1{
+    height: 50%;
+}
+.div8 .link1{
+    color: black;
+    text-decoration: none;
+}
+.div8 .link2{
+    color: rgb(55, 55, 55);
+    text-decoration: none;
+    font-weight: bold;
+}
+.div8 .link2:hover{
+    color: rgb(106, 104, 104);
+}
+
+.div8 .box2{
+    width: 450px;
+    height: 310px;
+    margin-left: 5px;
+    margin-top: 50px;
+    float: left;
+}
+.div8 .link-sp{
+    margin-top: 50px;
+}
+
+.div9{
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    padding-top: 50px;
+}
+.div9 a{
+    color: white;
+    margin-left: 1250px;
+    font-size: 14px;
+    text-decoration: none;
+}
+.div9 a:hover{
+    color: rgb(182, 177, 177);
+}
+.div9 .box{
+    height: 450px;
+    width: 150px;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+.div9 .head-link{
+    color: white;
+    text-decoration: none;
+}
+.div9 .head-link:hover{
+    color: rgb(182, 177, 177);
+}
+.div9 .sub-link{
+    color: white;
+    text-decoration: none;
+}
+.div9 .sub-link:hover{
+    color: rgb(182, 177, 177);
+}
+.div10{
+width: 100%;
+height: 400px;
+display: flex;
+background-color: black;
+}
+.div10 .blank{
+    height: 300px;
+    width: 80px;
+}
+.div10 .box{
+    height: 300px;
+    width: 175px;
+}
+.div10 .head-link{
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+    font-size: 20px;
+}
+.div10 .head-link:hover{
+    color: rgb(182, 177, 177);
+}
+
+.div10 .sub-link{
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+}
+.div10 .sub-link:hover{
+    color: rgb(182, 177, 177);
+}
+.div10 .blank2{
+    background-color: white;
+    height: 300px;
+    width: 150px;
+}
+.bottom-icon{
+    width: 100%;
+    height: 90px;
+    background-color: black;
+}
+.bottom-icon .ficon{
+    margin-left: 1150px;
+}
+.bottom-icon .sicon{
+    margin-left: 20px;
+}
+.bottom-area-link{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+}
+.bottom-icon .line{
+    width: 86%;
+    margin-top: 35px;
+    margin-left: 80px;
+    border-color: rgb(94, 92, 92);
+}
+.bottom-links{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    background-color: black;
+}
+.bottom-links p{
+    color: white;
+    margin-left: 80px;
+    font-size: 13px;
+    margin-right: 40px;
+}
+.bottom-links a{
+    color: white;
+    font-size: 13px;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 14px;
+}
+.bottom-links a:hover{
+    color: rgb(163, 159, 159);
+}
+.bottom-lastcontent{
+    width: 100%;
+    height: 200px;
+    background-color: black;
+}
+.bottom-lastcontent p{
+    color: white;
+    font-size: 13px;
+    margin-left: 80px;
+    margin-right: 100px;
+}
